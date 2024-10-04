@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import Posts from "../../components/posts/Posts";
 import "./home.css";
 import axios from "axios";
@@ -18,7 +18,7 @@ export default function Home() {
   }, [search]);
   return (
     <div className="mainhome">
-          <Posts posts={posts} />
+      <Posts posts={posts} />
     </div>
   );
 }

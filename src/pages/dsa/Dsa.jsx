@@ -7,7 +7,7 @@ import Logic from "./logic";
 import String from "./string";
 import Sorting from "./sorting";
 import LinkedList from "./linkedlist";
-import Dp_Graph from "./dp_graph";
+import DpGraph from "./dp_graph";
 const Dsa = (token) => {
 
   return (
@@ -28,7 +28,7 @@ const Dsa = (token) => {
         <Binery />
         <String />
         <LinkedList />
-        <Dp_Graph />
+        <DpGraph />
       </div>
     </>
   );

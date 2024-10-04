@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import "./all.css";
 
-const Dp_Graph = ({ token }) => {
+const DpGraph = ({ token }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [problems, setProblems] = useState([]);
 
@@ -89,4 +89,4 @@ const Dp_Graph = ({ token }) => {
   );
 }
 
-export default Dp_Graph;
+export default DpGraph;

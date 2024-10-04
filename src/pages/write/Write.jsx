@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import "./write.css";
-import { addInterviewPost } from "../../api/add_exp"; 
+import { addInterviewPost } from "../../api/add_exp";
 import { Context } from "../../context/Context";
 
 const MAX_TITLE_LENGTH = 50;
@@ -44,15 +44,14 @@ export default function Write() {
 
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
-  const [file, setFile] = useState(null);
   const [companies, setCompanies] = useState("");
-  const [questions, setQuestions] = useState(""); 
+  const [questions, setQuestions] = useState("");
   const [tips, setTips] = useState("");
   const { user } = useContext(Context);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     if (title.trim() === "") {
       alert("Please enter a title.");
       return;

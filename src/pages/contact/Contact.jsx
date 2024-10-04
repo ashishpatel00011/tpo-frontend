@@ -22,7 +22,7 @@ const ContactForm = () => {
       errors.number = "Contact number must be 10 digits";
     }
     if (!formData.type) errors.type = "Please select a query type";
-    
+
     return errors;
   };
 
@@ -70,7 +70,6 @@ const ContactForm = () => {
               <form
                 id="widget-contact-form"
                 onSubmit={handleSubmit}
-                role="form"
                 noValidate
               >
                 <div className="row">
