@@ -7,7 +7,7 @@ body {
   background-color: #f1f1f1;
   box-shadow: 2px 0px 0px 0px rgb(79, 79, 79);
   color: #0f0f0f;
-  padding: 5px 0; /* Decrease the vertical padding further */
+  padding: 10px 0; /* Decrease the vertical padding further */
   text-align: center;
   margin: auto;
   max-width: 100%; /* Make the footer container fill the available width */
